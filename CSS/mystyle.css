@@ -1,0 +1,131 @@
+body{
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+.first-container{
+  background-color:#2c061f;
+}
+/*.first-container::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity:.3;
+    z-index:-1;
+}*/
+p{
+  color:#40514E;
+  line-height:2;
+}
+h1{
+  margin:50px auto 0 auto;
+  font-family: 'Caveat', cursive;
+  font-size: 5.625rem;
+  color:white;
+  line-height:2;
+}
+h2{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  color:#2c061f;
+}
+.changed{
+  font-weight: normal;
+
+  font-family: 'Montserrat', sans-serif;
+}
+h3{
+  font-family: 'Montserrat', sans-serif;
+}
+.profilepic{
+  margin-top:50px;
+  border-radius: 150%;
+  width: 15%;
+}
+.middle1{
+  margin:100px auto 90px auto;
+}
+.middle2{
+  margin-bottom:90px;
+}
+.skill-row{
+  width: 50%;
+  margin: 100px auto;
+}
+.skill-row>h3,.skill-row>p{
+  text-align: left;
+}
+.skill-row>p{
+  line-height: 2;
+  /*clear: both;left and rifht....clear is actually like the opposite of float*/
+}
+.skill-img1{
+  width:20%;
+  margin-right:30px;
+  float:left;
+}
+.skill-img2{
+  width:20%;
+  float:right;
+}
+.first-container{
+  position: relative;
+  padding-top:70px;
+}
+.image3{
+  position: absolute;
+  left:20%;
+  bottom: 300px;
+}
+.image1{
+  position: absolute;
+  right:20%;
+  top: 80px;
+}
+hr{
+  width:5%;
+  border-style: dotted;
+  border-width: 10px;
+  border-bottom: 0;
+  color: #EAF6F6;
+}
+.contact-me h3{
+  margin-bottom:40px;
+}
+button{
+  background-color:rgb(100 100 100);
+  margin:50px auto;
+  padding: 15px 30px;
+  border: none;
+  border-radius:10px;
+}
+a{
+  text-decoration:none;
+  color:rgb(200, 200, 200);
+  font-size:1.7rem;
+  text-transform:lowercase;
+  font-family: 'Caveat', cursive;
+}
+button:hover{
+  background-color:rgb(20 20 20);
+  cursor: pointer;
+}
+.last-container{
+  background-color:#2c061f;
+  text-align: center;
+  padding:40px 0;
+}
+.last-container a{
+  color:white;
+  margin-right: 50px;
+}
+.last-container a:hover{
+  color: black;
+}
+.last-container p{
+  margin-top: 40px;
+}
